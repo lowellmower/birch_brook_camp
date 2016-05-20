@@ -17,6 +17,7 @@ gem 'paperclip'
 gem 'aws-sdk', '~> 1.5.7'
 gem 'pdf-reader'
 gem 'material_icons'
+gem "font-awesome-rails"
 
 group :production do
 	gem 'rails_12factor'
