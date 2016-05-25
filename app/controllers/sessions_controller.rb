@@ -5,6 +5,7 @@ class SessionsController < ApplicationController
   # GET /sessions.json
   def index
     @sessions = Session.all
+    @title = "Birch Brook Camp: Sessions"
   end
 
   # GET /sessions/1
